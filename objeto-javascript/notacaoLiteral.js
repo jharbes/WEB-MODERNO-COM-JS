@@ -18,10 +18,10 @@ console.log(obj4)
 
 const obj5={
     funcao1: function(){
-        // maneira antiga de declarar funcao
+        // maneira antiga de declarar funcao no objeto
     },
     funcao2(){
-        // forma reduzida e nova de declarar funcao
+        // forma reduzida e nova de declarar funcao no objeto
     }
 }
 
