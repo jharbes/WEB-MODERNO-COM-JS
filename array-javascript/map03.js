@@ -1,3 +1,5 @@
+// Aqui estamos exemplificando a criacao da funcao MAP com o nome MAP2 para saber como ela funciona internamente
+
 Array.prototype.map2=function(callback){
     const newArray=[]
     for (let i=0; i<this.length;i++){
