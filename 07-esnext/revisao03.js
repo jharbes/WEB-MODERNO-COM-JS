@@ -9,5 +9,20 @@ console.log(Object.entries(obj)) // Retornará o par chave/valor em formato de a
 // Melhorias na notação literal
 const nome='Carla'
 const pessoa={
-    
+    nome, // antes seria necessario colocar nome:nome
+    ola(){ // antes seria necessario colocar ola: function(){   }
+        return 'Oi gente!'
+    }
 }
+
+console.log(pessoa.nome,pessoa.ola())
+
+// Classes
+class Animal{}
+class Cachorro extends Animal{
+    falar(){
+        return 'Au au!'
+    }
+}
+
+console.log(new Cachorro().falar())
