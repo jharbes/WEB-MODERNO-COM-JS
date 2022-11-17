@@ -10,3 +10,17 @@ values
     ('Cielo',01598317000134); -- mesmo o campo cnpj sendo um varchar ele aceita os valores do cnpj sem as aspas
 
 desc empresas;
+
+desc prefeitos;
+
+select * from `cidades`;
+
+select * from empresas;
+
+insert into empresas_unidades
+    (empresa_id,cidade_id,sede)
+values
+    (1,1,1),
+    (1,2,0),
+    (2,1,0),
+    (2,2,1);
