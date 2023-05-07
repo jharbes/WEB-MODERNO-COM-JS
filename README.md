@@ -1,4 +1,4 @@
-<img src="logo-javascript.png" align="right" width="150">
+<img src="logo-javascript.png" align="right" width="100">
 
 # WEB-MODERNO-COM-JS
 
